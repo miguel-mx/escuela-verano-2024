@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Escuela de Verano en Matemáticas 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/esver.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-black" data-bs-theme="dark">
+    <div class="container">
+        <div class="d-flex flex-row align-items-center">
+            <div><img class="d-none d-md-inline-block" src="img/nav-unam.png" alt="Escudo UNAM"></div>
+            <div class="ms-2"><img class="d-none d-md-inline-block" src="img/nav-unam-txt.png" alt="Texto UNAM"></div>
+        </div>
+        <div>
+            <img  class="ms-1 ms-sm-4" src="img/nav-ccm.png" alt="Escudo CCM">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Registro</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="hero-image"></div>
+
+<section id="infographic">
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+            <div class="d-flex flex-column mb-5">
+                <div class="info-icon">
+                    <img src="img/i-fecha.png" alt="calendario">
+                </div>
+                <div class="info-graph-title">29 de julio al</div>
+                <div class="info-graph-subtitle">2 de agosto</div>
+            </div>
+            <div class="d-flex flex-column mb-5">
+                <div class="info-icon">
+                    <img src="img/i-limite.png" alt="Inscripción">
+                </div>
+                <div class="info-graph-title">Límite de inscripción</div>
+                <div class="info-graph-subtitle">17 de mayo 2024</div>
+            </div>
+            <div class="d-flex flex-column mb-5">
+                <div class="info-icon">
+                    <img src="img/i-cupo.png" alt="note">
+                </div>
+                <div class="info-graph-title">Cupo</div>
+                <div class="info-graph-subtitle">Limitado</div>
+            </div>
+            <div class="d-flex flex-column mb-5">
+                <div class="info-icon">
+                    <img src="img/i-programa.png" alt="note">
+                </div>
+                <div class="info-graph-title">Programa</div>
+                <div class="info-graph-subtitle">6 cursos y 4 conferencias</div>
+            </div>
+            <div class="d-flex flex-column mb-5">
+                <div class="info-icon">
+                    <img src="img/i-beca.png" alt="note">
+                </div>
+                <div class="info-graph-title">Becas</div>
+                <div class="info-graph-subtitle">Hospedaje y alimentación</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="intro">
+    <div class="container pb-5">
+
+        <div class="text-center mb-5">
+            <button class="btn btn-lg btn-cyan">¡Regístrate ahora!</button>
+        </div>
+
+        <h1 class="mt-5">La Escuela de Verano</h1>
+        <div class="content">La tradicional <span class="green fw-bold"> Escuela de Verano en Matemáticas</span>
+            del Centro de Ciencias Matemáticas de la UNAM, Morelia tiene como objetivo principal dar a conocer
+            algunas de las áreas de las matemáticas cultivadas por los investigadores del Posgrado Conjunto en
+            Ciencias Matemáticas UNAM - UMSNH.
+        </div>
+       <div class="content mt-4">
+            Este año en particular la dinámica será distinta, ya que su modalidad será híbrida: presencial y virtual.
+            Durante la escuela tendremos cursos y pláticas.
+        </div>
+        <div class="content mt-4">
+            La escuela está dirigida a estudiantes de los últimos semestres o de la segunda mitad de la
+            licenciatura en Matemáticas u otras carreras con fuerte base matemática, como Actuaría, Física o
+            Matemáticas Aplicadas.
+        </div>
+    </div>
+</section>
+
+<section id="registro">
+    <div class="container">
+        <h1>¿Cómo registrarme?</h1>
+
+        <div class="cyan-dark fw-bold my-5">Requisitos</div>
+
+        <div class="d-flex flex-row align-items-center">
+            <div class="requisito d-flex flex-row">
+                <div class="d-flex flex-row">
+                    <div><img src="img/i-calificacion.png" alt="Icono Calificaciones"></div>
+                    <div class="ms-2">Historial de<br> Calificaciones</div>
+                </div>
+            </div>
+            <div class="requisito ms-5 d-flex flex-row">
+                <div class="d-flex flex-row"><img src="img/i-recomendacion.png" alt="Icono Calificaciones"></div>
+                <div class="ms-2">Recomendación<br> de tu profesor</div>
+            </div>
+        </div>
+
+        <div class="content mt-5">Para registrarte* es necesario tener escaneado tu historial de calificaciones para subirlo a
+            nuestro sistema de registro. También tendrás que darnos la referencia de un profesor a quien solicitaremos
+            una carta de recomendación.
+        </div>
+        <div class="content mt-4">
+            Una vez aceptado te llegará un correo y deberás confirmar tu asistencia. Además, tendrás que descargar el
+            siguiente seguro para completar tu registro y mandarlo a <strong>más tardar el día 17 de mayo de 2023</strong>. No se podrá
+            asistir a la XXIII Escuela de Verano en Matemáticas sin dicho formato.
+        </div>
+
+        <div class="text-center cyan-dark fw-bold mt-5">
+            Fecha límite de registro: 17 de mayo de 2023
+        </div>
+    </div>
+</section>
+
+
+<section id="schedule">
+
+    <div class="container">
+        <h1>Cursos</h1>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C1</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Mapas en superficies y sus simetrías</div>
+                        <div class="professor">Daniel Pellicer Covarubias</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C2</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Grupos, Acciones y Geometría</div>
+                        <div class="professor">Jesús Hernández Hernández</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C3</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Contando simetrías</div>
+                        <div class="professor">Ernesto Vallejo Ruiz</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#crisModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C4</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Medida y categoría en la recta real</div>
+                        <div class="professor">Cristina Villanueva Segovia</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#abelModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C5</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Geometría y topología mediante el uso del álgebra</div>
+                        <div class="professor">Luis Abel Castorena Martínez</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">C6</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Ultrafiltros en las matemáticas</div>
+                        <div class="professor">Osvaldo Guzmán Gónzalez</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="pellicerModal" tabindex="-1" aria-labelledby="pellicerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="pellicerModalLabel">Mapas en superficies y sus simetrías</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Daniel Pellicer</strong><br><br>
+                        Un mapa es un encaje de una gráfica en una superficie, con cierta propiedad adicional. Esta idea
+                        busca generalizar la noción de mapa que conocemos de los cursos de geografía. En este curso estamos
+                        interesados en particular en las simetrías que guardan los mapas, enfocándonos en aquellos más
+                        simétricos. A lo largo del curso se verá que este tema se puede definir y estudiar de manera
+                        independiente desde la topología de superficies (es en esta dirección en la que estamos definiendo
+                        'mapa en superficie'), desde la combinatoria de complejos simpliciales, desde la teoría de grupos,
+                        y desde la geometría euclidiana, esférica e hiperbólica. No se requieren conocimientos previos en estos temas.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="hdezModal" tabindex="-1" aria-labelledby="hdezModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="hdezModalLabel">Grupos, Acciones y Geometría</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Jesús Hernández Hernández</strong><br><br>
+                        Los grupos son una de las estructuras más básicas del álgebra. Sin embargo, por su nivel de generalidad,
+                        muchas veces se vuelve muy difícil poder estudiarlos profundamente. Para ayudar a su estudio se
+                        utilizan las llamadas "acciones de grupo" en conjuntos, espacios, etc. Más aún, dependiendo de la
+                        estructura que tenga el lugar donde actúen y de las propiedades de la acción, se pueden "jalar"
+                        muchas propiedades a los grupos. Con esto en mente, la teoría geométrica de grupos es el estudio
+                        de los grupos a través de sus acciones en objetos geométricos (usualmente espacios métricos). En
+                        esta plática daremos un breve vistazo a la teoría geométrica de grupos y al concepto de curvatura
+                        negativa en grupos. Primero, vamos a ver cómo es posible ver a un grupo como un espacio métrico y
+                        su acción isométrica en sí mismo. Posteriormente, veremos acciones isométricas más generales de
+                        grupos con diferentes propiedades, y el que se considera el resultado fundamental de la teoría
+                        (Lema de Milnor-Schwarz), el cual nos permitirá hacer "equivalentes" la información obtenida a
+                        partir de una acción del grupo y la información obtenida de ver al grupo como un espacio métrico.
+                        Finalmente, veremos cómo se puede dotar a un espacio (y por ende a un grupo) de una "curvatura negativa", y sus ventajas.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="vallejoModal" tabindex="-1" aria-labelledby="vallejoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="vallejoModalLabel">Contando simetrías</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Ernesto Vallejo Ruiz</strong><br><br>
+                        Dentro de la combinatoria hay varios problemas de conteo que dependen de los objetos que se desea
+                        contar. Un ejemplo clásico es el de los collares puestos sobre una mesa: ¿cuántos collares hay
+                        con 8 cuentas y 3 colores? La simetría de estos objetos es rotacional. Otro ejemplo. ¿De cuántas
+                        maneras podemos colorear las caras de un cubo con a lo más 7 colores? En este caso las simetrías
+                        consideradas son las rotaciones del cubo en el espacio.<br><br>
+                        En este curso mostramos un método, basado en teoremas de Frobenius, Burnside y Pólya, que resuelve
+                        estos y otros problemas. El método usa las nociones de grupo y de acción de un grupo en un conjunto.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="crisModal" tabindex="-1" aria-labelledby="crisModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="crisModalLabel">Medida y categoría en la recta real</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Cristina Villanueva Segovia</strong><br><br>
+                        En este curso estudiaremos distintas maneras de decir que un conjunto es "pequeño" en la recta real.
+                        En particular, nos centraremos en las nociones de "pequeñez" que surgen a partir de la medida de
+                        Lebesgue y de las categorías de Baire (ambos conceptos serán introducidos en el curso). Nuestra
+                        motivación será tratar de entender en qué sentido estos conceptos son análogos, opuestos, uno más
+                        fuerte que el otro, etc., esto nos llevará, por un lado, a estudiar propiedades particulares de
+                        los conjuntos "pequeños" y "grandes" (según la noción que estemos usando) y por el otro, a adentrarnos
+                        en la estructura de la recta real, construyendo ejemplos contraintuitivos (o por lo menos, no intuitivos).
+                        Hablaremos también de lo que no es ni pequeño, ni grande, es decir, conjuntos que se escapan de
+                        poder ser clasificados según estas nociones de pequeñez.<br><br>
+                        * En este curso partiremos únicamente de nociones generales de topología y análisis real, no es
+                        necesario haber llevado un curso de teoría de la medida, ni de teoría de conjuntos.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="abelModal" tabindex="-1" aria-labelledby="abelModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abelModalLabel">Geometría y topología mediante el uso del álgebra</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Luis Abel Castorena Martínez</strong><br><br>
+                        Por medio del anillo de polinomios e ideales introduciremos las variedades algebraicas y
+                        estudiaremos algunas de sus propiedades.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="osvaldoModal" tabindex="-1" aria-labelledby="osvaldoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="osvaldoModalLabel">Ultrafiltros en las matemáticas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Osvaldo Guzmán Gónzalez</strong><br><br>
+                        Los ultrafiltros son de los objetos más importantes en la combinatoria infinita. De alguna manera,
+                        un ultrafiltro nos da una medida para decidir cuando un conjunto es grande o pequeño. Aunque es
+                        imposible describir explicitamente los ultrafiltros, (En el curso explicaremos por qué) estos
+                        tienen aplicaciones en diversas áreas de las matemáticas. En el curso veremos algunos ejemplos.
+                        <br><br>
+                        No es necesario tener conocimientos previos sobre ultrafiltros o teoría de conjuntos.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 CLASS="mt-5">Pláticas</h1>
+
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#yesModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">P1</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Asignando una topología o una geometría a espacios de cosas</div>
+                        <div class="professor">Yesenia Villicaña Molina</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#edgardoModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">P2</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Particiones de Medidas: Repartiendo el Espacio</div>
+                        <div class="professor">Edgardo Roldán Pensado</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#nellyModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">P3</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Análisis Topológico de transferencia Horizontal de genes de Resistencia Antimicrobiana en Bacterias Hospitalarias</div>
+                        <div class="professor">Nelly Sélem Mojica</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+               <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#haydeeModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">P4</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Magnitud y Fractales</div>
+                        <div class="professor">Adriana Haydée Contreras Peruyero</div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center curso" data-bs-toggle="modal" data-bs-target="#corichiModal">
+                    <div class="justify-content-start"><span class="yellow-circle"><span class="code">P5</span></span></div>
+                    <div class="talk">
+                        <div class="title"><i class="bi bi-link-45deg"></i> Construyendo el espacio-tiempo: Relatividad general de la A a la B</div>
+                        <div class="professor">Alejandro Corichi Rodríguez</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="yesModal" tabindex="-1" aria-labelledby="yesModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="yesModalLabel">Asignando una topología o una geometría a espacios de cosas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Yesenia Villicaña Molina</strong><br><br>
+                        Darle una topología o una geometría a un espacio de cosas, nos sirve para expresar (a veces cuantitativamente)
+                        qué tan diferentes son dos elementos de dicho espacio. En esta plática, veremos algunos ejemplos
+                        sencillos de lo anterior, y posteriormente profundizaremos un poco en el espacio de polígonos
+                        degenerados a segmentos, es decir, el espacio de polígonos con todos sus vértices alineados.
+                        (Esto último es un trabajo en conjunto con Manuel Espinosa y Ahtziri González.)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="edgardoModal" tabindex="-1" aria-labelledby="edgardoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="edgardoModalLabel">Particiones de Medidas: Repartiendo el Espacio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Edgardo Roldán Pensado</strong><br><br>
+                        En esta plática exploramos el mundo de las particiones de medidas, un campo que cae entre la
+                        geometría discreta y la topología algebraica, dedicado a dividir el espacio equitativamente
+                        mediante métodos geométricos. Veremos desde sus principios intuitivos hasta teoremas fundamentales
+                        como el de Ham-Sandwich y el problema de equipartición de Grünbaum, abordando las estrategias clave
+                        para sus demostraciones. Además, daremos un vistazo a resultados más especializados y reflexionaremos
+                        sobre la curiosa prevalencia de referencias culinarias en los nombres de estos teoremas.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="nellyModal" tabindex="-1" aria-labelledby="nellyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="nellyModalLabel">Análisis Topológico de transferencia Horizontal de genes de Resistencia Antimicrobiana en Bacterias Hospitalarias</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Nelly Sélem Mojica</strong><br><br>
+                        El análisis topológico de datos (TDA) ofrece una poderosa herramienta para identificar propiedades
+                        topológicas en conjuntos extensos de datos. Esto se logra al medir similitudes entre datos y la
+                        construcción de complejos simpliciales. El TDA se ha utilizado con éxito en diversas disciplinas
+                        como la física, neurociencia, astronomía y metagenómica. En esta charla, exploraremos los
+                        fundamentos del TDA y su aplicación en el estudio de la transferencia horizontal de genes (TGH)
+                        entre las bacterias del grupo ESKAPE, el cual es un grupo de patógenos que representan una amenaza
+                        considerable debido a su resistencia a múltiples antibióticos.<br><br>
+                        Trabajo en conjunto con Haydee Peruyero, S. Guerrero-Flores, J.M. Ibarra
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="haydeeModal" tabindex="-1" aria-labelledby="haydeeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="heydeeModalLabel">Magnitud y Fractales</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Adriana Haydée Contreras Peruyero</strong><br><br>
+                        Usualmente estamos acostumbrados a pensar en dimensiones enteras, un punto tiene dimensión 0, una
+                        línea tiene dimensión 1 y un sólido tiene dimensión 2, sin embargo existen dimensiones no enteras,
+                        un ejemplo de ello es la dimensión fractal, la cual es una medida de la complejidad de un fractal.
+                        Calcular la dimensión fractal es un reto y en años recientes han habido varias propuestas que
+                        permiten estimarla. En esta plática vamos a abordar una propuesta de calcular la dimensión fractal
+                        para redes complejas usando homología persistente y un concepto llamado magnitud. La magnitud es
+                        una noción de tamaño introducida por Tom Leinster que generaliza los invariantes tipo cardinalidad.
+                        Nos referimos a esto con lo siguiente, muchos objetos matemáticos tienen una noción canónica de
+                        tamaño, por ejemplo los conjuntos tienen cardinalidad y los subconjuntos del espacio tienen volumen.
+                        Es un trabajo en conjunto con Nina Otter, Maria Antonietta Pascali, Sanjukta Krishnagopal, Rayna Andreeva y Elizabeth Thompson.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="corichiModal" tabindex="-1" aria-labelledby="corichiModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="corichiModalLabel">Construyendo el espacio-tiempo: Relatividad general de la A a la B</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <strong>Alejandro Corichi Rodríguez</strong><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="mt-5">Programa</h1>
+
+        <ul class="nav nav-tabs my-5">
+            <li class="nav-item">
+                <a class="nav-link active" id="tab-0" data-bs-toggle="tab" href="#tabpanel-0" role="tab" aria-controls="tabpanel-0" aria-selected="true">Lunes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-1" data-bs-toggle="tab" href="#tabpanel-1" role="tab" aria-controls="tabpanel-1" aria-selected="false">Martes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tabpanel-2" role="tab" aria-controls="tabpanel-2" aria-selected="false">Miércoles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tabpanel-3" role="tab" aria-controls="tabpanel-3" aria-selected="false">Jueves</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="tab-4" data-bs-toggle="tab" href="#tabpanel-4" role="tab" aria-controls="tabpanel-4" aria-selected="false">Viernes</a>
+            </li>
+        </ul>
+        <div class="tab-content pt-2 mb-5" id="tab-content">
+            <div class="tab-pane active" id="tabpanel-0" role="tabpanel" aria-labelledby="tab-0">
+                <div class="schedule-day d-flex flex-column">
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">08:30 - 09:00</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Registro - Bienvenida</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">09:00 - 10:50</div>
+                        <div class="schedule-talk" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                            <div class="schedule-title">C1 - Mapas en superficies y sus simetrías</div>
+                            <div class="schedule-professor">Daniel Pellicer</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:50 - 11:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">11:10 - 12:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                                <div class="schedule-title">C3 - Contando simetrías</div>
+                                <div class="schedule-professor">Ernesto Vallejo Ruiz</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <div class="schedule-title">C4 - Medida y categoría en la recta real</div>
+                                <div class="schedule-professor">Cristina Villanueva Segovia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">13:00 - 13:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#yesModal">
+                            <div class="schedule-title">P1 - Asignando una topología o una geometría a espacios de cosas</div>
+                            <div class="schedule-professor">Yesenia Villicaña Molina</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">14:00 - 15:50</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Comida - Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">16:00 - 16:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                            <div class="schedule-title">C1 - Mapas en superficies y sus simetrías</div>
+                            <div class="schedule-professor">Daniel Pellicer</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">17:00 - 17:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                                <div class="schedule-title">C3 - Contando simetrías</div>
+                                <div class="schedule-professor">Ernesto Vallejo Ruiz</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <div class="schedule-title">C4 - Medida y categoría en la recta real</div>
+                                <div class="schedule-professor">Cristina Villanueva Segovia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">18:00 - 18:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Transporte al Hotel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tabpanel-1" role="tabpanel" aria-labelledby="tab-1">
+                <div class="schedule-day d-flex flex-column">
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">09:00 - 10:50</div>
+                        <div class="schedule-talk" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                            <div class="schedule-title">C2 - Grupos, Acciones y Geometría</div>
+                            <div class="schedule-professor">Jesús Hernández Hernández</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:50 - 11:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">11:10 - 12:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#abelModal">
+                                <div class="schedule-title">C5 - Geometría y topología mediante el uso del álgebra</div>
+                                <div class="schedule-professor">Luis Abel Castorena Martínez</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                                <div class="schedule-title">C6 - Ultrafiltros en las matemáticas</div>
+                                <div class="schedule-professor">Osvaldo Guzmán Gónzalez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">13:00 - 13:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#edgardoModal">
+                            <div class="schedule-title">P2 - Particiones de Medidas: Repartiendo el Espacio</div>
+                            <div class="schedule-professor">Edgardo Roldán Pensado</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">14:00 - 15:50</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Comida - Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">16:00 - 16:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                            <div class="schedule-title">C2 - Grupos Acciones y Geometría</div>
+                            <div class="schedule-professor">Jesús Hernández Hernández</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">17:00 - 17:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#abelModal">
+                                <div class="schedule-title">C5 - Geometría y topología mediante el uso del álgebra</div>
+                                <div class="schedule-professor">Luis Abel Castorena Martínez</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                                <div class="schedule-title">C6 - Ultrafiltros en las matemáticas</div>
+                                <div class="schedule-professor">Osvaldo Guzmán Gónzalez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">18:00 - 18:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Transporte al Hotel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tabpanel-2" role="tabpanel" aria-labelledby="tab-1">
+                <div class="schedule-day d-flex flex-column">
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">09:00 - 10:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                                <div class="schedule-title">C3 - Contando simetrías</div>
+                                <div class="schedule-professor">Ernesto Vallejo Ruiz</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <div class="schedule-title">C4 - Medida y categoría en la recta real</div>
+                                <div class="schedule-professor">Cristina Villanueva Segovia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:50 - 11:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">11:10 - 12:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                            <div class="schedule-title">C1 - Mapas en superficies y sus simetrías</div>
+                            <div class="schedule-professor">Daniel Pellicer</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">13:00 - 13:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#nellyModal">
+                            <div class="schedule-title">P3 - Análisis Topológico de transferencia Horizontal de genes de Resistencia Antimicrobiana en Bacterias Hospitalarias</div>
+                            <div class="schedule-professor">Nelly Sélem Mojica</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">14:00 - 15:50</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Comida - Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">16:00 - 16:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                                <div class="schedule-title">C3 - Contando simetrías</div>
+                                <div class="schedule-professor">Ernesto Vallejo Ruiz</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <div class="schedule-title">C4 - Medida y categoría en la recta real</div>
+                                <div class="schedule-professor">Cristina Villanueva Segovia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">17:00 - 17:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                            <div class="schedule-title">C1 - Mapas en superficies y sus simetrías</div>
+                            <div class="schedule-professor">Daniel Pellicer</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">18:00 - 18:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Transporte al Hotel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tabpanel-3" role="tabpanel" aria-labelledby="tab-1">
+                <div class="schedule-day d-flex flex-column">
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">09:00 - 10:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#abelModal">
+                                <div class="schedule-title">C5 - Geometría y topología mediante el uso del álgebra</div>
+                                <div class="schedule-professor">Luis Abel Castorena Martínez</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                                <div class="schedule-title">C6 - Ultrafiltros en las matemáticas</div>
+                                <div class="schedule-professor">Osvaldo Guzmán Gónzalez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:50 - 11:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">11:10 - 12:50</div>
+                        <div class="schedule-talk" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                            <div class="schedule-title">C2 - Grupos, Acciones y Geometría</div>
+                            <div class="schedule-professor">Jesús Hernández Hernández</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">13:00 - 13:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#abelModal">
+                                <div class="schedule-title">C5 - Geometría y topología mediante el uso del álgebra</div>
+                                <div class="schedule-professor">Luis Abel Castorena Martínez</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                                <div class="schedule-title">C6 - Ultrafiltros en las matemáticas</div>
+                                <div class="schedule-professor">Osvaldo Guzmán Gónzalez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">14:00 - 15:50</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Comida - Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">16:00 - 16:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#pellicerModal">
+                            <div class="schedule-title">C1 - Mapas en superficies y sus simetrías</div>
+                            <div class="schedule-professor">Daniel Pellicer</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">17:00 - 17:50</div>
+                        <div class="schedule-talk" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                            <div class="schedule-title">C2 - Grupos, Acciones y Geometría</div>
+                            <div class="schedule-professor">Jesús Hernández Hernández</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">18:00 - 18:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Transporte al Hotel</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tabpanel-4" role="tabpanel" aria-labelledby="tab-1">
+                <div class="schedule-day d-flex flex-column">
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">09:00 - 09:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#haydeeModal">
+                            <div class="schedule-title">P4 - Magnitud y Fractales</div>
+                            <div class="schedule-professor">Adriana Haydée Contreras Peruyero</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:00 - 10:50</div>
+                        <div class="schedule-talk" data-bs-toggle="modal" data-bs-target="#hdezModal">
+                            <div class="schedule-title">C2 - Grupos, Acciones y Geometría</div>
+                            <div class="schedule-professor">Jesús Hernández Hernández</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">10:50 - 11:10</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Café</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">11:10 - 12:00</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#vallejoModal">
+                                <div class="schedule-title">C3 - Contando simetrías</div>
+                                <div class="schedule-professor">Ernesto Vallejo Ruiz</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#crisModal">
+                                <div class="schedule-title">C4 - Medida y categoría en la recta real</div>
+                                <div class="schedule-professor">Cristina Villanueva Segovia</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">12:00 - 12:50</div>
+                        <div class="d-flex flex-column">
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#abelModal">
+                                <div class="schedule-title">C5 - Geometría y topología mediante el uso del álgebra</div>
+                                <div class="schedule-professor">Luis Abel Castorena Martínez</div>
+                            </div>
+                            <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#osvaldoModal">
+                                <div class="schedule-title">C6 - Ultrafiltros en las matemáticas</div>
+                                <div class="schedule-professor">Osvaldo Guzmán Gónzalez</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">13:00 - 13:50</div>
+                        <div class="schedule-talk mb-3" data-bs-toggle="modal" data-bs-target="#corichiModal">
+                            <div class="schedule-title">P5 - Construyendo el espacio-tiempo: Relatividad general de la A a la B</div>
+                            <div class="schedule-professor">Alejandro Corichi Rodríguez</div>
+                        </div>
+                    </div>
+                    <div class="schedule-event d-flex flex-row">
+                        <div class="schedule-time">14:00 - 15:00</div>
+                        <div class="schedule-talk">
+                            <div class="schedule-title">Comida - Café</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contacto-container">
+            <div class="contacto-title">Contacto</div>
+            <div class="contacto-content">nangenila<i class="bi bi-at"></i>matmor.unam.mx</div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center flex-md-row justify-content-md-around mt-5">
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-unam.png" alt="Logo UNAM"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-umsnh.png" alt="Logo UMSNH"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-ccm.png" alt="Logo CCM"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-cic.png" alt="Logo CIC"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-fismat.png" alt="Logo FISMAT"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-ifm.png" alt="Logo IFM"></div>
+        </div>
+        <hr class="white">
+        <div class="copyright text-center">Universidad Nacional Autónoma de México Campus Morelia, Centro de Ciencias Matemáticas</div>
+        <div class="copyright text-center">XXIII Escuela de Verano en Matemáticas, todos los derechos reservados © 2024.</div>
+        <div class="copyright text-center">Aviso de Privacidad</div>
+    </div>
+</section>
+
+<section id="dgapa">
+
+    <div class="text-center">Este evento se realizó con apoyo de la DGAPA mediante el proyecto PAPIME PE101520.</div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
